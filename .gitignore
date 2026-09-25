@@ -1,0 +1,23 @@
+# Tool-owned site descriptor / private bindings
+*.qoder.site
+
+# Generated reports (recreated by run.py)
+bordereau-risk-agent/output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# node-repl scratch cells
+.qwen_node_repl_cell_*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp

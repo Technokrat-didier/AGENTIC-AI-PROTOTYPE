@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bordereau Risk Intelligence Agent</title>
+  <meta name="description" content="Upload reinsurance bordereaux and slips; detect fraud, adverse selection and data-quality issues in-browser.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bordereau Risk Intelligence Agent</h1>
+    <p>Ingest bordereaux &amp; slips &rarr; normalize &rarr; data-quality &rarr; anomaly detection &rarr; AI investigation &rarr; prioritized findings.</p>
+  </header>
+
+  <div class="wrap">
+    <section class="controls">
+      <div class="privacy">100% in-browser &mdash; files are parsed locally and never uploaded to a server.</div>
+      <div class="inputs">
+        <label class="field">
+          <span>Policies bordereau (CSV)</span>
+          <input type="file" id="f-policies" accept=".csv,text/csv">
+          <em id="st-policies" class="status">not loaded</em>
+        </label>
+        <label class="field">
+          <span>Claims bordereau (CSV)</span>
+          <input type="file" id="f-claims" accept=".csv,text/csv">
+          <em id="st-claims" class="status">not loaded</em>
+        </label>
+        <label class="field">
+          <span>Reinsurance slip (TXT, optional)</span>
+          <input type="file" id="f-slip" accept=".txt,text/plain">
+          <em id="st-slip" class="status">not loaded</em>
+        </label>
+      </div>
+      <div class="buttons">
+        <button id="btn-sample" class="btn secondary">Load sample data</button>
+        <button id="btn-analyze" class="btn">Analyze</button>
+        <button id="download" class="btn secondary" disabled>Download JSON</button>
+      </div>
+    </section>
+
+    <section id="results"><p class="empty">Loading&hellip;</p></section>
+
+    <footer>Prototype &mdash; deterministic offline reasoning engine. The Python CLI remains the reference implementation.</footer>
+  </div>
+
+  <script src="pipeline.js"></script>
+  <script src="sample-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

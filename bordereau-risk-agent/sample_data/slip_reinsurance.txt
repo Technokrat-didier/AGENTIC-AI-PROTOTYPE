@@ -1,0 +1,24 @@
+==============================================================
+        REINSURANCE PLACING SLIP  (FACULTATIVE / TREATY)
+==============================================================
+
+Reinsured / Cedant :  Alpha Mutual Insurance
+Cedant Reference   :  ALPHA-PROP-2025
+Contract Period    :  01/01/2025 to 31/12/2025 (12 months)
+Line / Class       :  Property - Fire & Allied Perils
+Territory          :  United States
+Basis of Cover     :  Occurrence
+Cession            :  45% of each risk
+Layer Attachment   :  USD 1,000,000 xs USD 500,000
+Layer Limit        :  USD 4,000,000
+Reinsurance Prem.  :  USD 42,000 (100% basis)
+Reinsurer Share    :  25%
+Broker             :  Meridian Re Brokers
+Slip Reference     :  MRB-2025-0447
+Lead Underwriter   :  J. Whitfield
+Slip Signed Date   :  18/12/2024
+
+Notes: Subject to survey of risks over USD 3,000,000.
+       Sanctions limitation clause applies. Losses reported
+       quarterly by bordereau within 90 days of quarter end.
+==============================================================

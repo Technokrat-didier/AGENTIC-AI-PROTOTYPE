@@ -1,0 +1,63 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       margin: 0; background: #f4f6f8; color: #1f2933; }
+header { background: #0f2d4a; color: #fff; padding: 22px 32px; }
+header h1 { margin: 0 0 4px; font-size: 22px; }
+header p { margin: 0; opacity: .82; font-size: 13px; max-width: 900px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 24px 32px 60px; }
+
+.controls { background: #fff; border-radius: 12px; padding: 18px 20px; margin-bottom: 22px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.privacy { font-size: 12px; color: #2f6f4f; background: #eaf6ef; border: 1px solid #cde9d8;
+           padding: 7px 12px; border-radius: 8px; margin-bottom: 14px; display: inline-block; }
+.inputs { display: flex; gap: 16px; flex-wrap: wrap; }
+.field { flex: 1; min-width: 220px; display: flex; flex-direction: column; gap: 6px; }
+.field span { font-size: 12px; font-weight: 600; color: #48566a; }
+.field input[type=file] { font-size: 12px; }
+.status { font-size: 11px; color: #98a2b0; font-style: normal; }
+.status.loaded { color: #2f6f4f; }
+.status.error { color: #b3261e; }
+
+.alert { border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 13px; line-height: 1.5; }
+.alert strong { display: block; margin-bottom: 4px; font-size: 13px; }
+.alert ul { margin: 4px 0 0; padding-left: 20px; }
+.alert.error { background: #fdecea; border: 1px solid #f5c2bd; color: #8e1b1b; }
+.alert.warn { background: #fff7e6; border: 1px solid #f3d9a4; color: #8a5b00; }
+.buttons { margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap; }
+.btn { background: #0f2d4a; color: #fff; border: none; padding: 10px 18px; border-radius: 8px;
+       font-size: 13px; font-weight: 600; cursor: pointer; }
+.btn:hover { background: #163d61; }
+.btn.secondary { background: #e7ecf1; color: #2c3e50; }
+.btn.secondary:hover { background: #dbe2e9; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+
+.kpis { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 10px; }
+.kpi { background: #fff; border-radius: 10px; padding: 16px 20px; flex: 1; min-width: 130px;
+       box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.kpi .n { font-size: 28px; font-weight: 700; }
+.kpi .l { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #667; }
+.subnote { font-size: 12px; color: #78838f; margin: 4px 0 8px; }
+
+h2 { font-size: 16px; margin: 26px 0 12px; border-bottom: 2px solid #e1e6ea; padding-bottom: 6px; }
+.card { background: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 14px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.08); border-left: 4px solid #cbd5e0; }
+.card-head { display: flex; align-items: center; gap: 10px; }
+.rank { font-weight: 700; color: #8895a3; }
+.title { font-weight: 600; flex: 1; }
+.prio { color: #fff; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+.tags { margin: 8px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+.tag { font-size: 11px; background: #eef2f6; color: #4a5a6a; padding: 3px 9px; border-radius: 6px; }
+.narrative { margin: 8px 0; line-height: 1.55; font-size: 14px; }
+.refs { font-size: 12px; color: #556; margin-bottom: 6px; }
+.actions summary { cursor: pointer; font-size: 13px; font-weight: 600; color: #2c3e50; }
+.actions ul { margin: 6px 0 0; padding-left: 20px; font-size: 13px; line-height: 1.6; }
+
+table { border-collapse: collapse; width: 100%; background: #fff; border-radius: 8px; overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0,0,0,.08); font-size: 13px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #eef1f4; vertical-align: top; }
+th { background: #f0f3f6; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: #556; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.lr { max-width: 380px; }
+.empty { color: #78838f; font-style: italic; }
+footer { font-size: 12px; color: #8892a0; margin-top: 30px; text-align: center; }

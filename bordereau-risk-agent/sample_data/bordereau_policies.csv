@@ -1,0 +1,23 @@
+cedant,policy_id,insured_name,line_of_business,peril,inception_date,expiry_date,sum_insured,currency,gross_premium,ceded_share
+Alpha Mutual,AL-001,Northwind Logistics,Property,Fire,2025-01-01,2025-12-31,4500000,USD,18000,0.60
+Alpha Mutual,AL-002,Harbor Freight Co,Marine,Cargo,2025-02-01,2026-01-31,3200000,USD,12800,0.60
+Alpha Mutual,AL-003,Summit Chemicals,Liability,PublicLiability,2025-03-01,2026-02-28,5000000,USD,20000,0.55
+Alpha Mutual,AL-004,Ridgefield Retail,Property,Fire,2025-01-15,2025-12-15,2800000,USD,11200,0.60
+Alpha Mutual,AL-005,Coastal Foods,Property,Storm,2025-04-01,2025-09-01,30000000,USD,60000,0.60
+Alpha Mutual,AL-006,Maple Motors,Motor,Collision,2025-05-01,2026-04-30,750000,USD,3000,0.50
+Beta Insurance,BE-001,Quantech Ltd,Property,Fire,2025-01-01,2025-12-31,4200000,USD,16800,0.40
+Beta Insurance,BE-002,Lakeside Hotels,Liability,PublicLiability,2025-02-15,2026-02-14,3600000,USD,14400,0.40
+Beta Insurance,BE-003,Orion Shipping,Marine,Cargo,2025-03-01,2026-02-28,5100000,USD,20400,0.45
+Beta Insurance,BE-004,Brightpath Schools,Property,Fire,2025-06-01,2025-05-01,2900000,USD,11600,0.40
+Beta Insurance,BE-005,Vertex Manufacturing,Property,Fire,2025-01-01,2025-12-31,,USD,17000,0.40
+Beta Insurance,BE-006,Silverline Transport,Motor,Collision,2025-04-01,2026-03-31,690000,USD,2760,0.40
+Gamma Re,GA-001,Atlantic Pharma,Liability,ProductsLiability,2025-01-01,2025-12-31,6200000,EUR,24000,0.50
+Gamma Re,GA-002,Northgate Utilities,Property,Fire,2025-02-01,2026-01-31,4800000,USD,19200,0.50
+Gamma Re,GA-003,Pinnacle Foods,Marine,Cargo,2025-03-15,2026-03-14,3400000,USD,13600,0.45
+Gamma Re,GA-004,Cedar Bank,Liability,ProfessionalIndemnity,2025-05-01,2026-04-30,7100000,USD,28400,0.50
+Gamma Re,GA-005,Riverstone Farms,Property,Storm,2025-01-01,2025-12-31,2500000,USD,10000,0.45
+Delta P&C,DE-001,Metro Construction,Property,Fire,2025-01-01,2025-12-31,3900000,USD,15600,0.40
+Delta P&C,DE-002,Fairview Hospitals,Liability,PublicLiability,2025-02-01,2026-01-31,5500000,USD,22000,0.45
+Delta P&C,DE-003,Bluewave Retail,Property,Fire,2025-03-01,2026-02-28,2700000,USD,5400,0.40
+Delta P&C,DE-004,Stonebridge Logistics,Marine,Cargo,2025-04-01,2026-03-31,3100000,USD,12400,0.40
+Delta P&C,DE-005,Hillcrest Auto,Motor,Collision,2025-05-01,2026-04-30,720000,USD,2880,0.40
